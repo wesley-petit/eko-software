@@ -13,4 +13,6 @@ int main()
     doQuestion3();
     doQuestion4();
     doQuestion5();
+
+    system("pause");
 }
