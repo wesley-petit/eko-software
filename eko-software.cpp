@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include "question3.h"
 #include "question5.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+    doQuestion3();
     doQuestion5();
 }

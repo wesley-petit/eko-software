@@ -380,3 +380,7 @@ MigrationBackup/
 # Executables
 *.out
 *.app
+
+*.vcxproj
+
+*.filters

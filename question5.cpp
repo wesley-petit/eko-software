@@ -58,7 +58,7 @@ void EnsurePointsAreSortedByDistanceFromP(std::vector<Point2D>& Points, const Po
 
 void PrintPoints(const std::vector<Point2D>& Points)
 {
-	std::cout << "Pint points" << "\n";
+	std::cout << "Print points" << "\n";
 	for (size_t i = 0; i < Points.size(); i++)
 	{
 		std::cout << "Point : " << i << " - Coordinate : " << Points[i] << "\n";
