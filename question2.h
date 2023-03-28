@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <cassert>
+#include <assert.h>
 
 /// <summary>
 /// Convert an image of RGB to GREY of size X and Y.

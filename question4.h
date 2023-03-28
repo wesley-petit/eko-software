@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <cassert>
+#include <assert.h>
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
@@ -54,7 +54,7 @@ void doQuestion4()
 
 	// Create a podium for each position
 	for (size_t i = 1; i <= MAX_NTH; i++)
-		std::cout << "In " << i << " Position : " << NthMostCommon(Inputs, i) << "\n";
+		std::cout << "In " << i << " Place : " << NthMostCommon(Inputs, i) << "\n";
 
 	std::cout << "\n";
 }

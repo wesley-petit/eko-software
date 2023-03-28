@@ -4,8 +4,8 @@
 
 #include <iostream>
 #include <algorithm>
-#include <cmath>
-#include <cassert>
+#include <math.h>
+#include <assert.h>
 #include <limits>
 #include <optional>
 
