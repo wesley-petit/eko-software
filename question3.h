@@ -12,7 +12,7 @@ char* CountMeOnce(const char* string1, const char* string2)
 
 	for (size_t i = 0; i < strlen(string1); i++)
 	{
-		// Convert char to int to use as a key in a map container
+		// Convert char to int and use it as a key in a map container
 		int Key = string1[i];
 		MapChar[Key]++;
 	}
@@ -38,8 +38,6 @@ char* CountMeOnce(const char* string1, const char* string2)
 
 void doQuestion3()
 {
-	std::cout << "Size" << sizeof(char) ;
-
 	const char* string1("aab$Cbb");
 	const char* string2("Caa");
 
